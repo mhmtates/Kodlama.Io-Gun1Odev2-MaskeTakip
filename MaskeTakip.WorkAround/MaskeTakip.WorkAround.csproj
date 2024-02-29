@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MaskeTakip.Business\MaskeTakip.Business.csproj" />
+  </ItemGroup>
+
 </Project>

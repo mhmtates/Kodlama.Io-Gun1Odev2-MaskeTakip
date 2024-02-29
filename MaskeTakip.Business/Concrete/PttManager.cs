@@ -3,7 +3,7 @@ using MaskeTakip.Entities.Concrete;
 
 namespace MaskeTakip.Business.Concrete
 {
-    public class PttManager
+    public class PttManager:ISupplierService
     {
         private readonly IApplicantService _applicantService;
 
@@ -18,6 +18,8 @@ namespace MaskeTakip.Business.Concrete
             {
                 Console.WriteLine(citizen.FirstName + "için maske verildi.");
             }
+              Console.WriteLine(citizen.FirstName + "için maske verilemedi.");
+
 
         }
     }

@@ -1,4 +1,7 @@
 ﻿
+using MaskeTakip.Business.Concrete;
+using MaskeTakip.Entities.Concrete;
+
 namespace Workaround
 {
 
@@ -47,7 +50,16 @@ namespace Workaround
             {
                 Console.WriteLine(sehir);
             }
+            Citizen citizen1 = new Citizen();
+            citizen1.FirstName = "MEHMET ATEŞ";
+            citizen1.LastName = "ÖZATEŞ";
+            citizen1.DateOfBirthYear = 1988;
+            citizen1.NationalIdentity = 42217600888;
 
+
+
+            PttManager pttManager = new PttManager(new CitizenManager());
+            pttManager.GiveMask(citizen1);
 
 
             Console.ReadLine();
