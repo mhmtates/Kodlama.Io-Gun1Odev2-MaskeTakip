@@ -62,6 +62,10 @@ namespace Workaround
             pttManager.GiveMask(citizen1);
 
 
+            FarmacyManager farmacyManager = new FarmacyManager(new CitizenManager());
+            farmacyManager.GiveMask(citizen1);
+
+
             Console.ReadLine();
         }
 
