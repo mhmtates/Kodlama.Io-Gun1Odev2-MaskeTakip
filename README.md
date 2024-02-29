@@ -1,1 +1,3 @@
-<b>Engin Demiroğ Yazılım Geliştirici Yetiştirme Kampı(C#)</b> 1.Gün Ödev2 MaskeTakip Projesi
+<b>Engin Demiroğ Yazılım Geliştirici Yetiştirme Kampı(C#)</b> Maske Takip Projesi
+-----
+Pandemi döneminde devletimizin ülkemizde yaşayan kişilerin vatandaş olup olmadığına bağlı olarak maske verip vermediğini anlatan bir uygulamadır.(Vatandaşlara maske verilebiyor,yabancı uyruklulara verilemiyor) Proje, Business,Entities ve WorkAround katmanlarından oluşuyor. <b>Business</b> katmanında, manager sınıfları ve service arayüzlere ek olarak dışardan projeye bir wcf web servisi olan mernis servis referansını ekledik. Bu servis, tckimlikno doğrulaması yaparak o kişinin TC vatandaşı olup olmadığını gösteriyor. Bunun haricinde, <b>Entities</b> katmanı vatandaş adlı bir sınıftan oluşuyor. Son olarak, <b>WorkAround </b> katmanı ise C#'da temel konularla ilgili kodları içeriyor.
